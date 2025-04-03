@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "store_apna_apna_app",
+    "scheme": "store_apna_apna_app",
+    "slug": "store_apna_apna_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/apna_logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/apna_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#a4becd"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.store-apna-apna-app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/apna_logo.png",
+        "backgroundColor": "#a4becd"
+      }
+    },
+    "web": {
+      "favicon": "./assets/apna_logo.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
+  }
+}
